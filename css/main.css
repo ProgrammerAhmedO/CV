@@ -2143,13 +2143,13 @@ body.menu-is-open {
  * ------------------------------------------------------------------- */
 .home-content__video {
   display: inline-block;
-  margin-top: 4.2rem;
+  margin-top: 0.5rem;
 }
 
 .home-content__video .video-link {
   display: block;
   text-align: center;
-  width: 20rem;
+  width: 2rem;
   outline: none;
   position: relative;
 }
@@ -2191,6 +2191,59 @@ body.menu-is-open {
   background-color: #6b3792;
 }
 
+
+/* ------------------------------------------------------------------- 
+ * ## home VC link
+ * ------------------------------------------------------------------- */
+ .home-content__CV {
+  display: inline-block;
+  margin-top: 4.2rem;
+}
+
+.home-content__CV .CV-link {
+  display: block;
+  text-align: center;
+  width: 2rem;
+  outline: none;
+  position: relative;
+}
+
+.home-content__CV .CV-icon {
+  display: inline-block;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: #793ea5;
+  background-image: url(../images/icons/cv-icon.png);
+  background-repeat: no-repeat;
+  background-position: 52% center;
+  background-size: 53px 55px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-content__CV .CV-text {
+  display: inline-block;
+  text-align: center;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1;
+  color: #9c9c9c;
+  text-transform: uppercase;
+  letter-spacing: .5rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+  position: relative;
+}
+
+.home-content__CV .CV-link:hover .CV-text {
+  color: white;
+}
+
+.home-content__CV .CV-link:hover .CV-icon {
+  background-color: #6b3792;
+}
 /* ------------------------------------------------------------------- 
  * ## home buttons
  * ------------------------------------------------------------------- */
@@ -2709,6 +2762,26 @@ html.no-csstransitions .home-content__main {
     line-height: 5.4rem;
     font-size: 1.1rem;
   }
+
+
+
+
+  .home-content__CV .CV-link {
+    padding-left: 7.5rem;
+  }
+
+  .home-content__CV .CV-icon {
+    height: 5.4rem;
+    width: 5.4rem;
+  }
+
+  .home-content__CV .CV-text {
+    line-height: 4.4rem;
+    font-size: 1.1rem;
+  }
+
+
+
 
   .home-content__button {
     margin-top: 3.6rem;
